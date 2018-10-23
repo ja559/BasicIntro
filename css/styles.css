@@ -11,15 +11,10 @@ body {
     background-color: antiquewhite;
     height: 80px;
     line-height: 80px;
-    width: 368px;
-    float: left;
 }
+
 #logo {
     width: 592px;
-    float: left;
-}
-#menu ul {
-    margin: 0px;
 }
 
 #menu li {
@@ -27,13 +22,10 @@ body {
 }
 
 #banner {
-    clear: both;
-    background-image: url("../images/happy-people.jpg");
+    background-image: url("../images/college-students.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 500px;
-
-
 }
 
 #hero-text {
@@ -43,9 +35,7 @@ body {
     top: 50px;
     left: 100px;
 }
-#hero-text h1 {
-    margin: 0px;
-}
+
 .std-padding {
     padding-left: 31px;
     padding-right: 31px;
@@ -75,6 +65,10 @@ body {
 .clear-fix {
     clear:both;
 }
+.null-margin{
+    margin: 0px;
+}
+
 #footer {
     background-color: bisque;
 
@@ -82,7 +76,9 @@ body {
 
 .centerText {
     text-align: center;
-
+}
+.width368{
+    width: 368px;
 }
 
 #panel1, #panel2, #panel3 {
